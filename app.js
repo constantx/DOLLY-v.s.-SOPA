@@ -36,7 +36,8 @@ app.configure('production', function(){
 
 app.get('/', function(req, res, next){
     res.render('index',{
-        title: 'hello dolly.'
+        title: 'hello dolly.',
+        isProduction: (process.env.NODE_ENV == 'production') ? true : false
     });
 });
 
