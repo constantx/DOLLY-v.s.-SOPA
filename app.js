@@ -16,7 +16,7 @@ app.configure(function(){
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(express.cookieParser());
-    app.use(express.session({ secret: 'fiisajerk.com' }));
+    app.use(express.session({ secret: 'DOLLYvsSOPA' }));
     app.use(express.compiler({ src: __dirname + '/public', enable: ['less'] }));
     app.use(express.static(__dirname + '/public'));
     app.use(express.logger('":method :url" :status'));
