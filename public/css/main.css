@@ -1,0 +1,176 @@
+/*
+Eric Meyer Reset
+v1.0 | 20080212 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* new clearfix 07142011 */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix {
+  zoom: 1;
+}
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+/* IE7 */
+/* ---------------------------------------------------------------- */
+body {
+  padding: 50px;
+  font: 16px Georgia, serif;
+  background: #111;
+  color: #111;
+}
+a {
+  color: #111;
+  text-decoration: none;
+}
+::selection {
+  background: #ff48c9;
+  color: #fff;
+}
+::-moz-selection {
+  background: #ff48c9;
+  color: #fff;
+}
+#mainContainer {
+  width: 940px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  line-height: 2em;
+}
+#tweet {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+@media only screen and (min-width: 480px) {
+  #mainContainer {
+    width: 90%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #mainContainer {
+    width: 90%;
+  }
+  h1 {
+    font-size: 4em;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  h1 {
+    font-size: 6em;
+  }
+}
